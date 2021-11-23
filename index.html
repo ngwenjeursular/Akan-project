@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Names</title>
+    <link rel="stylesheet" href=".css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="par">
+                    <p class="head">Find your Akan Name!<br><hr>
+                    Akan names are derived from the Ghanian culture.<br>
+                     Children in Ghana are given their first name as a 'day name'<br>which 
+                     corresponds to the day in the week they were born.<br>
+                     Here are the Ghanian day names:
+                     </p>
+                    <p class="head">To find out your Akan name <br>
+                     please fill in the following form <br> and click submit.<br>
+                    cc-yy-mm-dd</p><hr>
+                </div>
+
+                <table>
+                    <tr>
+                        <th>Days</th>
+                        <th class="male">Male</th>
+                        <th class="female">Female</th>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td class="male">Kwasi</td>
+                        <td class="female">Akosua</td>
+                    </tr>
+                    <tr class="even">
+                        <td>Monday</td>
+                        <td class="male">Kwadwo</td>
+                        <td class="female">Adwoa</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td class="male">Kwabena</td>
+                        <td class="female">Abenaa</td>
+                    </tr>
+                    <tr class="even">
+                        <td>Wednesday</td>
+                        <td class="male">Kwaku</td>
+                        <td class="female">Akua</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td class="male">Yaw</td>
+                        <td class="female">Yaa</td>
+                    </tr>
+                    <tr class="even">
+                        <td>Friday</td>
+                        <td class="male">Kofi</td>
+                        <td class="female">Afua</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td class="male">Kwame</td>
+                        <td class="female">Ama</td>
+                    </tr>
+                    
+                </table>             
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="jumbotron">
+                <div class="form">
+                    <form name="form" onsubmit="return dateakan()" method="post">
+                        <label>Century:</label><br>
+                        <input type="text" size=20 name="century" Id=Id1><br>
+                        <label>Year:</label><br>
+                        <input type="text" size=20 name="year" Id=Id2>
+                        <label>Month:</label>
+                        <input type="text" size=20 name="month" Id=Id3><br>
+                        <label>D.o.B:</label><br>
+                        <input type="text" size=20 name="date of birth" Id=Id4>
+                        <label>Gender:</label>
+                        <input type="text" size=20 name="gender" Id=Id5>
+                        <!--<input type="text" size=20 name="gender" Id=Id5>-->
+                        <p><input type="submit" value="submit" name="Submit">
+                            <!--<input type="reset" value="Reset" name="Reset">-->
+                          </p>
+                    </form>
+                </div>    
+             
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src=".js"></script>
+
+    
+</body>
+</html>
