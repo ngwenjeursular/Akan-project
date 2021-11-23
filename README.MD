@@ -1,0 +1,35 @@
+# Akan-project
+This project is about creating a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
+Akan names are derived from Ghanian culture, where by the Ghanian people used to give their children tha first  names depending on the day they were born.
+
+## Author:
+
+* My name is Jackie and i worked and created this project.
+
+## SETUP AND INSTALLATION REQUIRMENTS
+
+* clone this repository
+* open the HTML file
+* open web browser of choice
+*inorder to alter or add any piece of code use visual code studio or atom depends on your prefernce
+
+### Tech used
+
+HTML,CSS and JAVASCRIPT
+
+## BDD
+
+| Behavior| input | output |
+| -------- | -------- | -------- |
+| user inputs century, year, month, date and gender then hits send   | once the information is input the application calculates    | once calculated the app outputs the Akan name of the respective user     |
+
+
+### Contact information
+greyjackie843@gmail.com
+
+## License
+
+this software license under MIT Liecense
+
+Copyright (c) 2021
+
