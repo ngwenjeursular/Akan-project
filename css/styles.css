@@ -1,0 +1,104 @@
+* {
+    color: rgb(197, 194, 194);
+    font-style: italic;
+    font-family: poppins;
+    background-color: rgb(44, 70, 67);
+      
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+    
+  }
+  hr {
+    color: beige;
+  }
+  .row {
+    display: flex;
+    margin-right: 0px;
+  }
+  .par {
+    line-height: 1.8em;
+    margin: 15px;
+    font-weight: 500;
+    height: 100px;
+  
+  }
+  table {
+    width: 600px;
+    /*float: right;*/
+    transform: translateX(20%);
+    padding-top: 20px;
+  }
+  th, td {
+    padding: 7px 10px 10px 10px;
+  }
+  th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+    background-color: rgb(82, 81, 81);
+    color: #efefef;
+  }
+  td {
+    /*background-color: rgb(197, 196, 196);*/
+    background-color: rgb(176, 194, 191);
+    color: #011313;
+    font-style: italic;
+    font-family: cursive;
+  }
+  tr.even {
+    background-color: #efefef;
+  }
+  tr:hover {
+    background-color: #c3e6e5;
+  }
+  .head {
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .form {
+    float: left;
+    padding: 10px;
+  
+  }
+  label input {
+    padding: 10px;
+  
+  }
+  input {
+    margin-left: 20px;
+    text-align: justify;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    border:  1px solid rgb(197, 194, 194);
+    cursor: pointer;
+  }
+  p input {
+    text-transform: uppercase;
+    color: #111111;
+      
+  }
+  
+  input[type=submit] {
+    background-color: transparent;
+    color: rgb(197, 194, 194);
+    border: 1px solid rgb(197, 194, 194);
+    font-size: 19px;
+    cursor: pointer;
+    text-shadow: 0 1px 0 #13506D;
+    padding: 4px;
+    height: 35px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #fff;
+    color: #011313;
+    border: 2px solid #fff;
+    
+  }
